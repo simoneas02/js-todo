@@ -1,0 +1,16 @@
+{
+  "name": "js-todo",
+  "version": "1.0.0",
+  "description": "A simple TODO List",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JS",
+    "TODO",
+    "List"
+  ],
+  "author": "Simone Amorim <simoneas02@hotmail.com> (https://simoneas02.github.io/)",
+  "license": "MIT"
+}
