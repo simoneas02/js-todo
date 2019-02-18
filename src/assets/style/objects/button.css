@@ -1,0 +1,17 @@
+.btn-add {
+  padding: 10px 25px;
+  border: 3px solid #f7f1f1;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background .2s ease-out;
+  font-size: 18px;
+  font-weight: 500;
+  background: #efd370;
+}
+
+@media(min-width: 480px) {
+  .btn-add {
+    padding: 20px 35px;
+  }
+}

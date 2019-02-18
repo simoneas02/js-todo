@@ -1,0 +1,14 @@
+.input-text {
+  padding: 10px;
+  background: #f7f1f1;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+@media(min-width: 480px) {
+  .input-text {
+    padding: 20px;
+  }
+}

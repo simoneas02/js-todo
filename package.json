@@ -4,13 +4,25 @@
   "description": "A simple TODO List",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel -p 3000 watch index.html",
+    "build": "parcel build index.html",
+    "test": "jest --watchAll"
   },
   "keywords": [
     "JS",
     "TODO",
     "List"
   ],
-  "author": "Simone Amorim <simoneas02@hotmail.com> (https://simoneas02.github.io/)",
-  "license": "MIT"
+  "author": "Simone Amorim [simoneas02@hotmail.com](https://simoneas02.github.io/)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.4.3",
+    "parcel-bundler": "^1.7.0"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost:3000/"
+  }
 }

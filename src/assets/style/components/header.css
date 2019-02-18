@@ -1,0 +1,33 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #202125;
+}
+
+.header__logo {
+  font-size: 150px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header__title {
+  font-size: 100px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+@media(min-width: 480px) {
+  .header__logo {
+    font-size: 250px;
+  }
+}
+
+@media(min-width: 480px) {
+  .header__title  {
+    font-size: 150px;
+  }
+}
